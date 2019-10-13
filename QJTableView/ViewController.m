@@ -84,9 +84,8 @@
     cellModel.text = @"secction 2";
     cellModel.detailText = @"row 3";
    
-    cellModel.updateCellSubviewWhenSetCellModelBlock = ^(QJBaseTableViewCell * _Nonnull cell, QJBaseCellModel * _Nonnull cellModel) {
-        
-        cell.detailTextLabel.text = @"dfsfds";
+    cellModel.updateCellSubviewWhenSetCellModelBlock = ^(__kindof QJBaseTableViewCell * _Nonnull cell, __kindof QJBaseCellModel * _Nonnull cellModel) {
+        cell.detailTextLabel.text = @"dsdfa";
     };
     [group2.modelArr addObject:cellModel];
     

@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic , copy , nullable) NSString * sectionFooterTitle ;
 
 // 当前组的models
-@property (nonatomic , strong) NSMutableArray<QJBaseCellModel *> * modelArr ;
+@property (nonatomic , strong) NSMutableArray<__kindof QJBaseCellModel *> * modelArr ;
 
 @end
 

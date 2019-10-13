@@ -32,7 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // block
 // 外界设置cell数据
-@property (nonatomic , copy , nullable) void (^updateCellSubviewWhenSetCellModelBlock)(QJBaseTableViewCell * cell , QJBaseCellModel * cellModel);
+@property (nonatomic , copy , nullable) void (^updateCellSubviewWhenSetCellModelBlock)(__kindof QJBaseTableViewCell * cell , __kindof QJBaseCellModel * cellModel);
 
 // 被选中的 cell 外界需要做的事
 //@property (nonatomic , copy , nullable) void (^selectedCellBlock)(QJBaseTableViewCell * cell);

@@ -20,6 +20,7 @@
     if (self = [self init]) {
         self.reuseIdentifier = [reuseIdentifier copy];
         self.cellClass = cellClass ;
+        
     }
     return self ;
 }
